@@ -5,6 +5,9 @@
     <meta charset="utf-8" />
     <title>Cadastro Curriculo</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
@@ -13,32 +16,20 @@
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
 
-    <style type="text/css">
-        h2 {
-            color: blue;
-        }
-
-        #principal {
-            
-            border: 3px groove red;
-        }
-    </style>
 
 </head>
-<body id="principal">
+<body>
 
-  
-    <div>
-        <h2>Cadastre-se</h2><br />
-    </div>
-    
-    <div>
+    <div class="resume-section p-3 p-lg-5 d-flex align-items-center">
+
         <form>
 
-            Nome:<input type="text" name="nome" /><br /><br />
-            Email:<input type="email" name="email" /><br /><br />
-            Indentificação:<br />
-            <input type="radio" name="sexo" value="J" /> Pessoa Juridica
+            <h2>Cadastre-se</h2><br />
+
+            <p>Nome:</p><input type="text" name="nome" /><br /><br />
+            <p>Email:</p><input type="email" name="email" /><br /><br />
+            <p>Indentificação:</p>
+            <input type="radio" name="sexo" value="J" /> Pessoa Juridica<br />
             <input type="radio" name="sexo" value="F" /> Pessoa Fisica<br /><br />
             <input type="submit" value="Cadastrar" />
 
